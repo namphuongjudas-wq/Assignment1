@@ -1,8 +1,13 @@
-color_code = input("Enter your color code here: ")
+def color():
 
-if color_code.startswith("#") and len(color_code) == 7:
-    print("Correct")
+    color_code = input("Enter your color code here: ")
 
-else:
-    print("Try again")
+    if color_code.startswith("#") and len(color_code) == 7:
+        return "Correct"
+
+    else:
+        return "Try again"
+
+print(color())
     
+
