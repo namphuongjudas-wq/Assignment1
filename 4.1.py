@@ -1,10 +1,15 @@
 def course_codes():
-    clss = input("Enter your course_code: ")
-    if clss == clss[:2].upper() + clss[2:]:
-        return "True"
-    else:
-        return "False"
+        clss = input("Enter your course_code: ")
+        letter = clss[:3]
+        num = clss[3:]
+        if letter.upper() and num.isdigit() and clss == 6:
+            return "True"
+            
+        else:
+            return "False"
 
 
 print(course_codes())
+
+
 
