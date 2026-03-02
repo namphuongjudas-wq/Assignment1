@@ -2,7 +2,7 @@ def course_codes():
         clss = input("Enter your course_code: ")
         letter = clss[:3]
         num = clss[3:]
-        if letter.upper() and num.isdigit() and clss == 6:
+        if letter.upper() and num.isdigit() and len(clss) == 6:
             return "True"
             
         else:
@@ -10,6 +10,7 @@ def course_codes():
 
 
 print(course_codes())
+
 
 
 
