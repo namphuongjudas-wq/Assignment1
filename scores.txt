@@ -1,0 +1,10 @@
+huy,85
+viet,92
+tuan,78
+phu,95
+khai,88
+bach,73
+hoanganh,90
+nhat,82
+ngoduc,67
+phuong,91
